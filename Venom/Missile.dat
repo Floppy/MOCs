@@ -1,0 +1,26 @@
+0 Venom
+0 Filename: Venom.mpd
+0 Author: James Smith
+0 WRITE (C) 2002 James Smith
+0 WRITE james@floppy.org.uk
+0 WRITE http://www.floppy.org.uk/play/lego/
+0 WRITE You may distribute this file freely, as
+0 WRITE long as the information above remains intact.
+0 WRITE ---------------------------------------------
+0 FILE Missile.dat
+0 Missile
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 46 10 0 136 -1 0 0 0 0 1 0 1 0 4589.DAT
+1 8 10 0 112 -1 0 0 0 0 1 0 1 0 3062B.DAT
+0 STEP
+1 14 10 0 104 -1 0 0 0 0 1 0 1 0 4085C.DAT
+0 STEP
+1 7 10 0 80 -1 0 0 0 0 1 0 1 0 3062B.DAT
+1 14 10 0 72 -1 0 0 0 0 1 0 1 0 4085C.DAT
+0 STEP
+1 8 10 0 48 -1 0 0 0 0 1 0 1 0 3062B.DAT
+1 8 10 0 24 -1 0 0 0 0 1 0 1 0 3062B.DAT
+1 7 10 0 0 -1 0 0 0 0 1 0 1 0 4589.DAT
+0
+0
