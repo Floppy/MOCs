@@ -1,0 +1,31 @@
+0 Wraith
+0 Filename: Wraith.mpd
+0 Author: James Smith
+0 WRITE (C) 2002 James Smith
+0 WRITE james@floppy.org.uk
+0 WRITE http://www.floppy.org.uk/play/lego/
+0 WRITE You may distribute this file freely, as
+0 WRITE long as the information above remains intact.
+0 WRITE ---------------------------------------------
+0 FILE Right_Wing.dat
+0 Right Wing
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+0 ROTSTEP -35 50 0 ABS
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 30355.DAT
+0 STEP
+1 8 -10 8 60 0 0 1 0 1 0 -1 0 0 3747.DAT
+0 STEP
+1 7 20 8 70 1 0 0 0 1 0 0 0 1 30365.DAT
+1 7 20 8 50 1 0 0 0 1 0 0 0 1 30365.DAT
+0 STEP
+1 8 -30 8 20 1 0 0 0 1 0 0 0 1 30359.DAT
+0 STEP
+1 7 10 38 60 1 0 0 0 1 0 0 0 1 30360.DAT
+0 STEP
+1 8 10 48 60 0 0 1 0 1 0 -1 0 0 3660.DAT
+0 STEP
+1 8 30 48 60 0 0 -1 0 1 0 1 0 0 2877.DAT
+1 46 10 38 120 0 0 1 1 0 0 0 1 0 3941.DAT
+0
+0
