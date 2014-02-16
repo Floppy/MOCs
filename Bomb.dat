@@ -1,0 +1,17 @@
+0 Nemesis
+0 Filename: Nemesis.mpd
+0 Author: James Smith
+0 WRITE (C) 2002 James Smith
+0 WRITE james@floppy.org.uk
+0 WRITE http://www.floppy.org.uk/play/lego/
+0 WRITE You may distribute this file freely, as
+0 WRITE long as the information above remains intact.
+0 WRITE ---------------------------------------------
+0 FILE Bomb.dat
+0 Bomb
+0 ROTATION CENTER 0 0 0 1 "Custom" 
+0 ROTATION CONFIG 0 0
+1 14 0 -10 120 -1 0 0 0 0 1 0 1 0 6039.DAT
+1 14 0 -10 160 -1 0 0 0 0 1 0 1 0 6042.DAT
+0
+0
