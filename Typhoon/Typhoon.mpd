@@ -1,104 +1,22 @@
 0 Typhoon
+0 Name: 
+0 Author: 
 0 Filename: Typhoon.mpd
 0 Author: James Smith
-0 WRITE (C) 2002 James Smith
-0 WRITE james@floppy.org.uk
-0 WRITE http://www.floppy.org.uk/play/lego/
-0 WRITE You may distribute this file freely, as
-0 WRITE long as the information above remains intact.
-0 WRITE ---------------------------------------------
-0 FILE Upper_Left_Wing.dat
-0 Upper Left Wing
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-1 7 0 24 -50 1 0 0 0 1 0 0 0 1 30355.DAT
-0 STEP
-1 8 -30 0 -30 1 0 0 0 1 0 0 0 1 30359.DAT
-1 8 -30 0 0 -1 0 0 0 1 0 0 0 -1 3040.DAT
-0 STEP
-0 ROTSTEP -19.1489 -43.1361 0 ABS
-1 7 -40 32 40 -1 0 0 0 1 0 0 0 -1 3660.DAT
-0 STEP
-1 7 -40 32 20 -1 0 0 0 1 0 0 0 -1 30365.DAT
-0 STEP
-1 7 -40 32 0 1 0 0 0 1 0 0 0 1 3747.DAT
-0 STEP
-1 7 -30 56 20 0 0 1 0 1 0 -1 0 0 3623.DAT
-0 STEP
-0 ROTSTEP END
-0
-0 FILE Upper_Right_Wing.dat
-0 Upper Right Wing
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-1 7 0 24 -50 1 0 0 0 1 0 0 0 1 30356.DAT
-0 STEP
-1 8 30 0 -30 1 0 0 0 1 0 0 0 1 30359.DAT
-1 8 30 0 0 -1 0 0 0 1 0 0 0 -1 3040.DAT
-0 STEP
-0 ROTSTEP -19.1489 -43.1361 0 ABS
-1 7 40 32 40 -1 0 0 0 1 0 0 0 -1 3660.DAT
-0 STEP
-1 7 40 32 20 1 0 0 0 1 0 0 0 1 30365.DAT
-0 STEP
-1 7 40 32 0 1 0 0 0 1 0 0 0 1 3747.DAT
-0 STEP
-1 7 30 56 20 0 0 1 0 1 0 -1 0 0 3623.DAT
-0 STEP
-0 ROTSTEP END
-0
-0 FILE Lower_Left_Wing.dat
-0 Lower Left Wing
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-1 7 0 24 -50 1 0 0 0 1 0 0 0 1 30355.DAT
-0 STEP
-1 7 -40 0 40 -1 0 0 0 1 0 0 0 -1 3039.DAT
-0 STEP
-1 7 -40 0 20 -1 0 0 0 1 0 0 0 -1 3004.DAT
-0 STEP
-1 7 -40 0 0 -1 0 0 0 1 0 0 0 -1 30365.DAT
-0 STEP
-1 7 -40 0 -20 1 0 0 0 1 0 0 0 1 3298.DAT
-0 STEP
-1 7 -30 -8 10 0 0 1 0 1 0 -1 0 0 2431BP79.DAT
-0 STEP
-0 ROTSTEP -19.1489 -43.1361 0 ABS
-1 8 -30 32 -30 1 0 0 0 1 0 0 0 1 30359.DAT
-1 8 -30 32 0 -1 0 0 0 1 0 0 0 -1 3665.DAT
-0 STEP
-0 ROTSTEP END
-0
-0 FILE Lower_Right_Wing.dat
-0 Lower Right Wing
-0 ROTATION CENTER 0 0 0 1 "Custom" 
-0 ROTATION CONFIG 0 0
-1 7 0 24 -50 1 0 0 0 1 0 0 0 1 30356.DAT
-0 STEP
-1 7 40 0 40 -1 0 0 0 1 0 0 0 -1 3039.DAT
-0 STEP
-1 7 40 0 20 -1 0 0 0 1 0 0 0 -1 3004.DAT
-0 STEP
-1 7 40 0 0 1 0 0 0 1 0 0 0 1 30365.DAT
-0 STEP
-1 7 40 0 -20 1 0 0 0 1 0 0 0 1 3298.DAT
-0 STEP
-1 7 30 -8 10 0 0 1 0 1 0 -1 0 0 2431BP79.DAT
-0 STEP
-0 ROTSTEP -19.1489 -43.1361 0 ABS
-1 8 30 32 -30 1 0 0 0 1 0 0 0 1 30359.DAT
-1 8 30 32 0 -1 0 0 0 1 0 0 0 -1 3665.DAT
-0 STEP
-0 ROTSTEP END
-0
+0 // (C) 2002 James Smith
+0 // james@floppy.org.uk
+0 // http://www.floppy.org.uk/play/lego/
+0 // You may distribute this file freely, as
+0 // long as the information above remains intact.
+0 // ---------------------------------------------
 0 FILE Main_Body.ldr
 0 Main Body
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 7 0 0 0 0 0 1 0 1 0 -1 0 0 3832.DAT
 0 STEP
-1 7 -10 -24 80 0 0 1 0 1 0 -1 0 0 3747.DAT
-1 7 10 -24 80 0 0 -1 0 1 0 1 0 0 3747.DAT
+1 7 -10 -24 80 0 0 1 0 1 0 -1 0 0 3747a.dat
+1 7 10 -24 80 0 0 -1 0 1 0 1 0 0 3747a.dat
 0 STEP
 1 7 10 -24 50 0 0 -1 0 1 0 1 0 0 3665.DAT
 1 7 -10 -24 50 0 0 1 0 1 0 -1 0 0 3665.DAT
@@ -136,18 +54,18 @@
 1 7 -30 -56 -30 1 0 0 0 1 0 0 0 1 6231.DAT
 1 7 30 -56 -30 0 0 1 0 1 0 -1 0 0 6231.DAT
 0 STEP
-1 7 30 -56 -60 0 0 1 0 1 0 -1 0 0 4865.DAT
-1 7 -30 -56 -60 0 0 -1 0 1 0 1 0 0 4865.DAT
+1 7 30 -56 -60 0 0 1 0 1 0 -1 0 0 4865a.dat
+1 7 -30 -56 -60 0 0 -1 0 1 0 1 0 0 4865a.dat
 1 8 0 -16 -90 -1 0 0 0 1 0 0 0 -1 2342.DAT
 0 STEP
 1 8 0 -56 -90 1 0 0 0 1 0 0 0 1 2399.DAT
 1 8 0 -80 10 1 0 0 0 1 0 0 0 1 3010.DAT
 0 STEP
-1 7 0 -56 -130 1 0 0 0 1 0 0 0 1 3069.DAT
+1 7 0 -56 -130 1 0 0 0 1 0 0 0 1 3069b.dat
 1 7 0 -56 -110 1 0 0 0 1 0 0 0 1 3069BPS1.DAT
 1 7 0 -56 -150 -1 0 0 0 1 0 0 0 -1 2877.DAT
-1 8 20 -80 -10 1 0 0 0 1 0 0 0 1 989.DAT
-1 8 -20 -80 -10 -1 0 0 0 1 0 0 0 -1 989.DAT
+1 8 20 -80 -10 1 0 0 0 1 0 0 0 1 76385.dat
+1 8 -20 -80 -10 -1 0 0 0 1 0 0 0 -1 76385.dat
 0 STEP
 1 8 10 -88 10 0 0 1 0 1 0 -1 0 0 2420.DAT
 1 8 -10 -88 10 -1 0 0 0 1 0 0 0 -1 2420.DAT
@@ -163,5 +81,6 @@
 0 STEP
 1 40 -91 -119 70 0.707107 -0.707107 0 0.707107 0.707107 0 0 0 1 Upper_Right_Wing.dat
 1 40 91 -119 70 0.707107 0.707107 0 -0.707107 0.707107 0 0 0 1 Upper_Left_Wing.dat
-0
-0
+0 
+0 
+0 STEP
